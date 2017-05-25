@@ -25,7 +25,7 @@ public class Command_smite extends FreedomCommand
         }
 
        if (!(sender instanceof Player)) {
-        sender.sendMessage(ChatColor.RED + "Only players can set other players on fire.");
+        sender.sendMessage(ChatColor.RED + "Only players can give other players puggles!");
         return true;
     }
     
